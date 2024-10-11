@@ -1,0 +1,15 @@
+.{
+    .name = "wayland-xdg_shell-client",
+    .version = "0.1.0",
+    .dependencies = .{
+        .@"wayland-client" = .{
+            .url = "git+https://github.com/voidstar240/zig-wayland-client#6043622d52225c04251f8694922db77ddec8be6d",
+            .hash = "1220a8e82e9be47e14064fab6a2c6970967c6b8bab66af215ba64624c0bc14cff009",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
